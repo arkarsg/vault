@@ -13,7 +13,7 @@ jobs:
         run: |
           # Set the required variables
           repo_owner=${{ secrets.DIGITALGARDEN_OWNER }}
-          repo_name="${{ secrets.DIGITALGARDEN_REPO_NAME }}
+          repo_name=${{ secrets.DIGITALGARDEN_REPO_NAME }}
           event_type="trigger-workflow"
 
           curl -L \
