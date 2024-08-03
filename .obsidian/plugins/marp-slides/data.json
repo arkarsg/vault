@@ -1,0 +1,8 @@
+{
+  "CHROME_PATH": "",
+  "ThemePath": "themes/styles.css",
+  "EnableHTML": false,
+  "MathTypesettings": "mathjax",
+  "HTMLExportMode": "bare",
+  "EXPORT_PATH": ""
+}

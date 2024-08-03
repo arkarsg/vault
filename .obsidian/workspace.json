@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "4b235f9f819573eb",
+    "type": "split",
+    "children": [
+      {
+        "id": "3bc10ca0ebba5cda",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c9a6da1ea74e30c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6df039ca26136765",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0159348eb55abcf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "346b4466046eb7de",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse"
+              }
+            }
+          },
+          {
+            "id": "9ece2153f4f6c5cf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "ports",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "264a02e943be1e90",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "4112649bcecc18ca",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "com.maxymillion.zen",
+              "state": {},
+              "pinned": true
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 323.5
+  },
+  "right": {
+    "id": "442aecfd3189bf7c",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d9a132c359210ef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b0cca86e9c1d60b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "17df2fde89d1984d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b738ab63b2cdaf36",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "09cb622854731a0b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "35b2803039cb65f0",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "5f3d998d3e20858f",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-advanced-slides:Show Slide Preview": false
+    }
+  },
+  "active": "9c9a6da1ea74e30c",
+  "lastOpenFiles": [
+    "Notes/CS2102/index.md",
+    "Notes/CS2040S/index.md",
+    "KodeKloud/CKAD/CKAD Prep/Services.md",
+    "KodeKloud/CKAD/CKAD Prep/State Persistence.md",
+    "KodeKloud/CKAD/CKAD Prep/Security.md",
+    "KodeKloud/CKAD/CKAD Prep/Configuration.md",
+    "KodeKloud/CKAD/Kubernetes for Absolute Beginners/index.md",
+    "KodeKloud/CKAD/index.md",
+    "LAC1201",
+    "Notes/GEN2001",
+    "Notes/CS4248",
+    "Notes/CS3219",
+    "Notes/CS4211",
+    "private/Interview prep/Hackerrank.md",
+    "private/Interview prep",
+    "KodeKloud/CKAD/Practice/Core concepts.md",
+    "KodeKloud/CKAD/Practice/Mult-container pods.md",
+    "KodeKloud/CKAD/Practice/Pod Design.md",
+    "KodeKloud/CKAD/Practice/Mock Exam 1.md",
+    "KodeKloud/CKAD/Practice",
+    "assets/rdt2.1.png",
+    "assets/Screenshot 2024-04-16 at 11.53.43 PM.png",
+    "assets/enterpriseaccessnetwork.png",
+    "assets/coordinatetransformation.png",
+    "assets/reductability-3satgraph.png",
+    "assets/Screenshot 2023-11-26 at 1.00.58 PM.png",
+    "assets/Screenshot 2024-04-27 at 1.05.58 PM.png",
+    "assets/tcpseqnum.png",
+    "assets/lca.png",
+    "assets/np-3dmatching3sat.png",
+    "assets",
+    "index.md",
+    "private/Voyage/Voyage.md",
+    "private/Voyage/Voyage Schema.canvas",
+    "private/Voyage/Schema design.md",
+    "private/Vietnam/Vietnam.md",
+    "private/Voyage",
+    "private/Vietnam",
+    "private/UBS Interview Prep.md",
+    "private/Self-Reflection Activity 3.md",
+    "private/Self-Reflection Activity 2.md",
+    "private/Self-Reflection Activity 1.md",
+    "private/SQL practice.md",
+    "private/Qualitative Analysis.md",
+    "private/DB Deadlock.md",
+    "private/Courses.md",
+    "private/CS2102 Group Project Part 2.md",
+    "Notes/CS2105/2105 overview.canvas",
+    "Notes/CS2102/CS2102 Assessment DB.canvas",
+    "Notes/CS3241/CS3241.canvas",
+    "Notes copy/CS2105/2105 overview.canvas",
+    "Notes copy/CS2102/CS2102 Assessment DB.canvas",
+    "Notes copy/CS3241/CS3241.canvas",
+    "CS3241/CS3241.canvas",
+    "CS2102/CS2102 Assessment DB.canvas",
+    "Notes/Year 3 Sem 1/CS2102/CS2102 Assessment DB.canvas"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "livePreview": false,
+  "defaultViewMode": "preview",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 90
+  },
+  "attachmentFolderPath": "assets",
+  "useMarkdownLinks": true,
+  "alwaysUpdateLinks": true,
+  "vimMode": true,
+  "newFileLocation": "current",
+  "promptDelete": false
+}
