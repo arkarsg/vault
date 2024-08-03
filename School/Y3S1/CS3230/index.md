@@ -2,6 +2,7 @@
 title: Design and Analysis of algorithms
 tags:
 - cs3230
+- algorithms
 ---
 
 # Design Patterns

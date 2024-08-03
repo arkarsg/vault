@@ -1,24 +1,21 @@
 ---
-title: Hello 👋
+title: digital garden 🌱
 ---
 
-A collection of things I learnt.
+> A digital garden is an online space at the intersection of a notebook and a blog, where digital gardeners share seeds of thoughts to be cultivated in public. Instead of polished articles displayed in reverse chronological order like a blog, a digital garden is more like a free form, work-in-progress wiki.
+>
+> [Chad](https://www.chadly.net/)
 
-# Notes
+## 🧠 Map of content
+Entry points for the scattered mind
 
-## Coursework
-- [CS2102 Database Systems](Notes/CS2102/index.md)
-- [CS2105 Introduction to Computer Networks](Notes/CS2105/index.md)
-- [CS2106 Operating Systems](Notes/CS2106/index.md)
-- [CS3230 Design and Analysis of Algorithms](Notes/CS3230/index.md)
-- [CS3241 Computer Graphics](Notes/CS3241/index.md)
-- [CS4225 Big Data Systems for Data Science](Notes/CS4225/index.md)
 
-## MongoDB
-- [MonoDB Design Patterns](MongoDB/index.md)
+|                             | What is it? |
+| --------------------------- | ----------- |
+| [School](School/index.md)   | My notes    |
+| [Kubernetes](KodeKloud/index.md) | Kubernetes course notes            |
 
-## KodeKloud
 
-### CKAD
-- [CKAD](KodeKloud/CKAD/index.md)
-
+## ✍️ Reading list
+- [About data engineering](https://glossary.airbyte.com/)
+- [About algorithms](https://labuladong.gitbook.io/algo-en)

@@ -1,7 +1,8 @@
 ---
 title: Database Systems
 tags:
-- cs2102
+  - cs2102
+  - database
 ---
 # Database Systems
 

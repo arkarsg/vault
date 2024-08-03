@@ -2,6 +2,7 @@
 title: Computer Graphics
 tags:
 - cs3241
+- graphics
 ---
 # Computer Graphics
 

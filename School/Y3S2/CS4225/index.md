@@ -1,5 +1,7 @@
 ---
 title: Big Data Systems for Data Science
+tags:
+- database
 ---
 # To do
 - [x] Revise streaming and watermarks

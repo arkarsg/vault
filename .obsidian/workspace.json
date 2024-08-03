@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "3bc10ca0ebba5cda",
+        "id": "af32fbe6f59fb30f",
         "type": "tabs",
         "children": [
           {
-            "id": "9c9a6da1ea74e30c",
+            "id": "6ce4c726f28b08e4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -62,7 +66,7 @@
             }
           },
           {
-            "id": "4112649bcecc18ca",
+            "id": "552c3ca6015e0ef2",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -91,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "index.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "index.md"
+              }
             }
           },
           {
@@ -168,8 +176,35 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "9c9a6da1ea74e30c",
+  "active": "346b4466046eb7de",
   "lastOpenFiles": [
+    "formatter/__pycache__/md_collector.cpython-39.pyc",
+    "formatter/__pycache__/image_formatter.cpython-39.pyc",
+    "formatter/__pycache__/image_formatter.cpython-312.pyc",
+    "formatter/__pycache__",
+    "formatter/md_collector.py",
+    "formatter/main.py",
+    "formatter/README.md",
+    "School/Y3S1/CS3230/main.py",
+    "School/Y3S1/CS3230/md_collector.py",
+    "School/Y3S1/CS3230/README.md",
+    "formatter/image_formatter.py",
+    "formatter",
+    "md_collector.py",
+    "README.md",
+    "School/index.md",
+    "School/Y3S2/CS4225/index.md",
+    "School/Y3S1/CS3241/index.md",
+    "School/Y3S1/CS3230/index.md",
+    "School/Y3S1/CS2105/index.md",
+    "School/Y3S1/CS2102/index.md",
+    "School/Y2/CS2106/index.md",
+    "School/Y2/CS2040S/index.md",
+    "KodeKloud/index.md",
+    "index.md",
+    "MongoDB/Normalization.md",
+    "MongoDB/Basics.md",
+    "MongoDB/Schema Patterns.md",
     "Notes/CS2102/index.md",
     "Notes/CS2040S/index.md",
     "KodeKloud/CKAD/CKAD Prep/Services.md",
@@ -178,18 +213,7 @@
     "KodeKloud/CKAD/CKAD Prep/Configuration.md",
     "KodeKloud/CKAD/Kubernetes for Absolute Beginners/index.md",
     "KodeKloud/CKAD/index.md",
-    "LAC1201",
-    "Notes/GEN2001",
-    "Notes/CS4248",
-    "Notes/CS3219",
-    "Notes/CS4211",
     "private/Interview prep/Hackerrank.md",
-    "private/Interview prep",
-    "KodeKloud/CKAD/Practice/Core concepts.md",
-    "KodeKloud/CKAD/Practice/Mult-container pods.md",
-    "KodeKloud/CKAD/Practice/Pod Design.md",
-    "KodeKloud/CKAD/Practice/Mock Exam 1.md",
-    "KodeKloud/CKAD/Practice",
     "assets/rdt2.1.png",
     "assets/Screenshot 2024-04-16 at 11.53.43 PM.png",
     "assets/enterpriseaccessnetwork.png",
@@ -200,23 +224,7 @@
     "assets/tcpseqnum.png",
     "assets/lca.png",
     "assets/np-3dmatching3sat.png",
-    "assets",
-    "index.md",
-    "private/Voyage/Voyage.md",
     "private/Voyage/Voyage Schema.canvas",
-    "private/Voyage/Schema design.md",
-    "private/Vietnam/Vietnam.md",
-    "private/Voyage",
-    "private/Vietnam",
-    "private/UBS Interview Prep.md",
-    "private/Self-Reflection Activity 3.md",
-    "private/Self-Reflection Activity 2.md",
-    "private/Self-Reflection Activity 1.md",
-    "private/SQL practice.md",
-    "private/Qualitative Analysis.md",
-    "private/DB Deadlock.md",
-    "private/Courses.md",
-    "private/CS2102 Group Project Part 2.md",
     "Notes/CS2105/2105 overview.canvas",
     "Notes/CS2102/CS2102 Assessment DB.canvas",
     "Notes/CS3241/CS3241.canvas",

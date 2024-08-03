@@ -2,6 +2,7 @@
 title: Introduction to Computer Networks
 tags:
 - cs2105
+- networking
 ---
 
 ## Schedule

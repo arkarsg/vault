@@ -1,3 +1,8 @@
+---
+title: Data structures and Algorithms
+tags:
+- algorithms
+---
 - [Sorting](Sorting.md)
 - [Lists](Lists.md)
 - [Binary Heap](Binary%20Heap.md)
