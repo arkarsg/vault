@@ -21,4 +21,6 @@ Entry points for the scattered mind
 - [About algorithms](https://labuladong.gitbook.io/algo-en)
 
 
->`digitalgarden` was created with [Obsidian](https://obsidian.md/) and published on GitHub pages using [Quartz](https://quartz.jzhao.xyz/). All notes are written in Markdown.
+> `digitalgarden` was created with [Obsidian](https://obsidian.md/) and published on GitHub pages using [Quartz](https://quartz.jzhao.xyz/). All notes are written in Markdown.
+>
+> Refer to guide [here]() for a tutorial on how to set up
