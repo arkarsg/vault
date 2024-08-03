@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "How-tos/Setting Up Quartz.md",
                 "mode": "source",
                 "source": true
               }
@@ -66,7 +66,7 @@
             }
           },
           {
-            "id": "552c3ca6015e0ef2",
+            "id": "c48acbeb96832ab7",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "How-tos/Setting Up Quartz.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "How-tos/Setting Up Quartz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "How-tos/Setting Up Quartz.md"
               }
             }
           },
@@ -176,8 +176,10 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "346b4466046eb7de",
+  "active": "6ce4c726f28b08e4",
   "lastOpenFiles": [
+    "index.md",
+    "How-tos/Setting Up Quartz.md",
     "formatter/__pycache__/md_collector.cpython-39.pyc",
     "formatter/__pycache__/image_formatter.cpython-39.pyc",
     "formatter/__pycache__/image_formatter.cpython-312.pyc",
@@ -190,7 +192,6 @@
     "School/Y3S1/CS3230/README.md",
     "formatter/image_formatter.py",
     "formatter",
-    "md_collector.py",
     "README.md",
     "School/index.md",
     "School/Y3S2/CS4225/index.md",
@@ -201,7 +202,6 @@
     "School/Y2/CS2106/index.md",
     "School/Y2/CS2040S/index.md",
     "KodeKloud/index.md",
-    "index.md",
     "MongoDB/Normalization.md",
     "MongoDB/Basics.md",
     "MongoDB/Schema Patterns.md",

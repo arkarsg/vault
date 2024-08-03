@@ -23,4 +23,4 @@ Entry points for the scattered mind
 
 > `digitalgarden` was created with [Obsidian](https://obsidian.md/) and published on GitHub pages using [Quartz](https://quartz.jzhao.xyz/). All notes are written in Markdown.
 >
-> Refer to guide [here]() for a tutorial on how to set up
+> Refer to guide [Setting Up Quartz](Setting%20Up%20Quartz.md) for a tutorial on how to set up
