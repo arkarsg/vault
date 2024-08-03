@@ -14,9 +14,6 @@ A collection of things I learnt.
 - [CS3241 Computer Graphics](Notes/CS3241/index.md)
 - [CS4225 Big Data Systems for Data Science](Notes/CS4225/index.md)
 
-## Misc
-- [French 1 & 2](French.md)
-
 ## MongoDB
 - [MonoDB Design Patterns](MongoDB/index.md)
 
