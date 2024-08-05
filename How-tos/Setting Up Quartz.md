@@ -2,7 +2,7 @@
 title: Augmenting Obsidian and Quartz with GitHub Actions
 ---
 
-Quartz effortlessly publishes your notes written in `Markdown` and Obsidian
+Quartz effortlessly publishes your notes written in `Markdown` and Obsidian. In this article, you will learn how Git submodules can be used in Quartz to take the weight of managing the Quartz repo off your shoulders.
 
 With Quartz, all markdown files need to exist within `content` folder. This means that you have to either:
 1. Have your Obsidian vault sit inside `content` folder
@@ -175,3 +175,10 @@ jobs:
 > Therefore, if `sync` is within `deploy` as a step, `sync` will perform `git push`. Since there is a `git push`, this will create new workflow. This means that for a single change in `my-vault` repo, there will be 1 action that is redundant and 1 action (from `git push` in `sync`) that updates the deployment.
 > 
 > Therefore, it is cleaner for `sync` to perform `git push` and let `deploy` react to `git push` event.
+
+### Conclusion
+By using Git submodules and GitHub Actions, we only need to manage the vault. Any changes made and pushed to our vault repo will be updated and build automatically in our Quartz deployment. 
+
+>[!tip] Bonus: **Using `git` within Obsidian**
+>
+> `Git` is a community plugin in Obsidian that allows you to use Git commands within Obsidian. With this, you won’t even have to leave the comfort of Obsidian to update Quartz.
