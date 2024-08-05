@@ -33,7 +33,7 @@ Let’s say there is a *standalone* Obsidian vault called `my-vault`
 1. Navigate to your Quartz repository locally.
 2. Add your Obsidian vault repository as a submodule inside the `content` folder:
 	```bash
-	git submodule add https://github.com/<user>/my-vault.git
+	git submodule add https://github.com/<user>/my-vault.git content
 	```
 3. Initialize and update the submodule:
 	```bash
@@ -43,8 +43,8 @@ Let’s say there is a *standalone* Obsidian vault called `my-vault`
 ### Step 3: Update `npx quartz sync` command
 With the above changes, Quartz and `my-vault` is better decoupled. However, with any changes pushed to `my-vault` repo, running `npx quartz sync` will not reflect any changes on GitHub pages. This is because submodules do not always reference the latest commit. `npx quartz sync` command then needs to:
 1. Update submodules and merge all remote changes *(new)*
-2. Push the changes *(pre-existing)*
-3. Deploy the changes *(pre-existing)*
+2. Add and commit the changes *(pre-existing)*
+3. Push the changes *(pre-existing)*
 
 In `quartz/cli/handlers.js`:
 ```js
@@ -155,8 +155,6 @@ jobs:
 In the build and deploy step, there are not much changes. Add `submodules: recursive` to let GitHub Actions know that there is a submodule:
 
 ##### `deploy.yaml`
-```
-
 ```yaml
 jobs:
   build:
@@ -170,9 +168,10 @@ jobs:
 ```
 
 >[!example]- Why is `sync` not added in `deploy` as a job instead?
->If `sync` is within `deploy` as a job, this means that `deploy` will run on pushes to `v4` branch *and* `repository_dispatch`
+>If `sync` is within `deploy` as a job, this means that `deploy` will run on pushes to `v4` branch *and* `repository_dispatch`.
+>
 > Notice that when changes from submodule is pulled, it has to be pushed to the main repo for the changes to be reflected in the build and deploy step.
 > 
-> Therefore, if `sync` is within `deploy` as a step, `sync` will perform `git push`. Since there is a `git push`, this will create new actions. This means that for a single change in `my-vault` repo, there will be 1 action that is redundant and 1 action (from `git push` in `sync`) that updates the deployment.
+> Therefore, if `sync` is within `deploy` as a step, `sync` will perform `git push`. Since there is a `git push`, this will create new workflow. This means that for a single change in `my-vault` repo, there will be 1 action that is redundant and 1 action (from `git push` in `sync`) that updates the deployment.
 > 
 > Therefore, it is cleaner for `sync` to perform `git push` and let `deploy` react to `git push` event.

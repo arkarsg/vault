@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "How-tos/Setting Up Quartz.md",
                 "mode": "source",
                 "source": true
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "How-tos/Setting Up Quartz.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "How-tos/Setting Up Quartz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "How-tos/Setting Up Quartz.md"
               }
             }
           },
@@ -176,10 +176,10 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "5f3d998d3e20858f",
+  "active": "6ce4c726f28b08e4",
   "lastOpenFiles": [
-    "How-tos/Setting Up Quartz.md",
     "index.md",
+    "How-tos/Setting Up Quartz.md",
     "formatter/__pycache__/md_collector.cpython-39.pyc",
     "formatter/__pycache__/image_formatter.cpython-39.pyc",
     "formatter/__pycache__/image_formatter.cpython-312.pyc",
