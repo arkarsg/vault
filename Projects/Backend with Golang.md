@@ -21,7 +21,7 @@ title: Backend with Golang
 
 ---
 
-## Setting up the database
+# Setting up the database
 First, define a schema and its relationships.
 
 Then, create the database in Docker. Map the container ports to hosts ports accordingly.
@@ -32,7 +32,7 @@ Manage the migrations with `migrate`. With `migrate`, developers have to define 
 >https://vonng.com/cn/blog/en/db-in-k8s/
 
 ---
-## Backend
+# Backend
 `sqlc` was used as an ORM
 
 ### What is SQLC?
@@ -214,5 +214,28 @@ This creates a circular wait, leading to a deadlock
 
 ---
 
+# Auth
 
+Storing password in DBs:
+- Hash with `bcrypt`
+
+`cost` parameter is the number of iterations
+`salt` is a random salt that is added
+
+4 components:
+1. ALG : the algorithm
+2. Cost : number of iterations
+	- For example, `cost=10` => $2^{10} = 1024$ key expansion rounds
+3. `salt` is a length of 16 bytes base64 encoded value
+4. `hash` is a length of 24 bytes
+
+This creates a hash string that is stored in the database.
+
+When users login, the password input by the user is hashed with the same cost and salt. If it is the same, then the password is correct.
+
+---
+
+When we hash the same password twice, the 2 hash values are different.
+
+A random salt value is generated and is used to generate the bcrypt hash.
 
