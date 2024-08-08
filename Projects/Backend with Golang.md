@@ -7,6 +7,9 @@ title: Backend with Golang
 
 ---
 
+>[!warning] TO DO
+>- [ ] Mocking
+>- [ ] Config with Viper
 
 | Component           | Tool       |
 | ------------------- | ---------- |
