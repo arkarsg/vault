@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "af32fbe6f59fb30f",
+        "id": "a4e2d8141760ff16",
         "type": "tabs",
         "children": [
           {
-            "id": "6ce4c726f28b08e4",
+            "id": "349d654163b17052",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "How-tos/Setting Up Quartz.md",
-                "mode": "preview",
+                "file": "Projects/Backend with Golang.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -66,7 +66,7 @@
             }
           },
           {
-            "id": "c48acbeb96832ab7",
+            "id": "f36a6c1588572353",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323.5
+    "width": 323.5,
+    "collapsed": true
   },
   "right": {
     "id": "442aecfd3189bf7c",
@@ -95,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "How-tos/Setting Up Quartz.md",
+                "file": "Projects/Backend with Golang.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "How-tos/Setting Up Quartz.md",
+                "file": "Projects/Backend with Golang.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "How-tos/Setting Up Quartz.md"
+                "file": "Projects/Backend with Golang.md"
               }
             }
           },
@@ -176,10 +177,12 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "6ce4c726f28b08e4",
+  "active": "349d654163b17052",
   "lastOpenFiles": [
-    "index.md",
     "How-tos/Setting Up Quartz.md",
+    "Projects/Backend with Golang.md",
+    "Projects",
+    "index.md",
     "formatter/__pycache__/md_collector.cpython-39.pyc",
     "formatter/__pycache__/image_formatter.cpython-39.pyc",
     "formatter/__pycache__/image_formatter.cpython-312.pyc",
@@ -191,7 +194,6 @@
     "School/Y3S1/CS3230/md_collector.py",
     "School/Y3S1/CS3230/README.md",
     "formatter/image_formatter.py",
-    "formatter",
     "README.md",
     "School/index.md",
     "School/Y3S2/CS4225/index.md",
@@ -213,7 +215,6 @@
     "KodeKloud/CKAD/CKAD Prep/Configuration.md",
     "KodeKloud/CKAD/Kubernetes for Absolute Beginners/index.md",
     "KodeKloud/CKAD/index.md",
-    "private/Interview prep/Hackerrank.md",
     "assets/rdt2.1.png",
     "assets/Screenshot 2024-04-16 at 11.53.43 PM.png",
     "assets/enterpriseaccessnetwork.png",
