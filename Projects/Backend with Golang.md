@@ -239,3 +239,26 @@ When we hash the same password twice, the 2 hash values are different.
 
 A random salt value is generated and is used to generate the bcrypt hash.
 
+---
+
+# Custom matchers for `gomock`
+
+Some use cases for custom `gomock` matchers:
+1. Object we want to match has `time.now()` field which is different on every run
+2. We want to create an account with plain-text password and match against hashed password to be stored in the DB
+
+`gomock` matcher has the following interface:
+```go
+type Matcher interface {
+	// Matches returns whether x is a match.
+	Matches(x interface{}) bool
+	// String describes what the matcher matches.
+	String() string
+}
+```
+
+Therefore, we can create our own `matcher` by implementing the `Matches` and `String` methods
+
+In case 1, our `Matches` method can match all field except the timestamp
+In case 2, our `Matches` method can use `CheckHashPassword` function in `bcrypt` instead of plain-text comparison
+
