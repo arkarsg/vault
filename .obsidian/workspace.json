@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/Possible Bipartite.md",
-                "mode": "preview",
+                "file": "index.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leetcode/Possible Bipartite.md",
+                "file": "index.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leetcode/Possible Bipartite.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leetcode/Possible Bipartite.md"
+                "file": "index.md"
               }
             }
           },
@@ -198,15 +198,16 @@
   },
   "active": "349d654163b17052",
   "lastOpenFiles": [
+    "Leetcode/index.md",
+    "index.md",
+    "Leetcode/Possible Bipartite.md",
     "Leetcode/Reversing Linked List I & II.md",
     "School/Y3S1/CS3230/Notes/Graph.md",
-    "Leetcode/Possible Bipartite.md",
     "Projects/Backend with Golang.md",
     "Leetcode",
     "Projects/Untitled.md",
     "How-tos/Setting Up Quartz.md",
     "Projects",
-    "index.md",
     "formatter/__pycache__/md_collector.cpython-39.pyc",
     "formatter/__pycache__/image_formatter.cpython-39.pyc",
     "formatter/__pycache__/image_formatter.cpython-312.pyc",
@@ -233,7 +234,6 @@
     "Notes/CS2102/index.md",
     "Notes/CS2040S/index.md",
     "KodeKloud/CKAD/CKAD Prep/Services.md",
-    "KodeKloud/CKAD/CKAD Prep/State Persistence.md",
     "assets/rdt2.1.png",
     "assets/Screenshot 2024-04-16 at 11.53.43 PM.png",
     "assets/enterpriseaccessnetwork.png",

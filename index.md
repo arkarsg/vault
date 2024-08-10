@@ -10,10 +10,12 @@ title: digital garden 🌱
 Entry points for the scattered mind
 
 
-|                             | What is it? |
-| --------------------------- | ----------- |
-| [School](School/index.md)   | My notes    |
-| [Kubernetes](KodeKloud/index.md) | Kubernetes course notes            |
+|                                                   | What is it?             |
+| ------------------------------------------------- | ----------------------- |
+| [School](School/index.md)                         | My notes                |
+| [Kubernetes](KodeKloud/index.md)                  | Kubernetes course notes |
+| [Backend with Golang](Backend%20with%20Golang.md) |                         |
+| [Leetcode](Leetcode/index.md)                                                  |                         |
 
 
 ## ✍️ Reading list
