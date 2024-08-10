@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Backend with Golang.md",
+                "file": "Leetcode/Reversing Linked List I & II.md",
                 "mode": "source",
                 "source": true
               }
@@ -66,7 +66,7 @@
             }
           },
           {
-            "id": "49bd7fd5b8b4d010",
+            "id": "e90a2fbb66f89f85",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Backend with Golang.md",
+                "file": "Leetcode/Reversing Linked List I & II.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Backend with Golang.md",
+                "file": "Leetcode/Reversing Linked List I & II.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Backend with Golang.md"
+                "file": "Leetcode/Reversing Linked List I & II.md"
               }
             }
           },
@@ -155,9 +155,17 @@
               "type": "toggl-report",
               "state": {}
             }
+          },
+          {
+            "id": "470a8b602bddda83",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -179,8 +187,11 @@
   },
   "active": "349d654163b17052",
   "lastOpenFiles": [
-    "How-tos/Setting Up Quartz.md",
     "Projects/Backend with Golang.md",
+    "Leetcode/Reversing Linked List I & II.md",
+    "Leetcode",
+    "Projects/Untitled.md",
+    "How-tos/Setting Up Quartz.md",
     "Projects",
     "index.md",
     "formatter/__pycache__/md_collector.cpython-39.pyc",
@@ -193,7 +204,6 @@
     "School/Y3S1/CS3230/main.py",
     "School/Y3S1/CS3230/md_collector.py",
     "School/Y3S1/CS3230/README.md",
-    "formatter/image_formatter.py",
     "README.md",
     "School/index.md",
     "School/Y3S2/CS4225/index.md",
@@ -213,8 +223,6 @@
     "KodeKloud/CKAD/CKAD Prep/State Persistence.md",
     "KodeKloud/CKAD/CKAD Prep/Security.md",
     "KodeKloud/CKAD/CKAD Prep/Configuration.md",
-    "KodeKloud/CKAD/Kubernetes for Absolute Beginners/index.md",
-    "KodeKloud/CKAD/index.md",
     "assets/rdt2.1.png",
     "assets/Screenshot 2024-04-16 at 11.53.43 PM.png",
     "assets/enterpriseaccessnetwork.png",

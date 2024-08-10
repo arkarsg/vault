@@ -248,3 +248,14 @@ def reverseBetween(head: Optional[ListNode], m: int, n: int) -> Optional[ListNod
 ```
 
 - If `m == 1`, then, it is the same as reversing the first $n$ elements
+
+**What if $m \neq 1$?**
+If we take the index of the `head` as $1$, then we compared to `head.next` the reverse section should start from $m-1$-th element
+
+```python
+def reverseBetween(head: Optional[ListNode], m: int, n: int) -> Optional[ListNode]:
+	if m == 1:
+		return reverseN(head, n)
+	head.next = self.reverseBetween(head.next, m-1, n-1)
+	return head
+```
