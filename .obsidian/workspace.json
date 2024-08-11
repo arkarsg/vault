@@ -4,34 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "a4e2d8141760ff16",
+        "id": "e690f0aa5b0f083f",
         "type": "tabs",
         "children": [
           {
-            "id": "349d654163b17052",
+            "id": "ffb5b598a903136f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "index.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d8d1acf7a07ba3ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Backend with Golang.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "923ed5de567bdcce",
+            "id": "2a65115a7244b47d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Y3S1/CS3230/Notes/Graph.md",
-                "mode": "preview",
+                "file": "Projects/JWT and PASETO.md",
+                "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -78,7 +91,7 @@
             }
           },
           {
-            "id": "e90a2fbb66f89f85",
+            "id": "5f6a5f27536d1bdc",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -107,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Projects/JWT and PASETO.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Projects/JWT and PASETO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Projects/JWT and PASETO.md"
               }
             }
           },
@@ -196,16 +209,18 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "349d654163b17052",
+  "active": "2a65115a7244b47d",
   "lastOpenFiles": [
-    "Leetcode/index.md",
-    "index.md",
-    "Leetcode/Possible Bipartite.md",
-    "Leetcode/Reversing Linked List I & II.md",
-    "School/Y3S1/CS3230/Notes/Graph.md",
+    "assets/Pasted image 20240811005447.png",
     "Projects/Backend with Golang.md",
+    "Projects/JWT and PASETO.md",
+    "Projects/index.md",
+    "index.md",
+    "Leetcode/Reversing Linked List I & II.md",
+    "Leetcode/index.md",
+    "Leetcode/Possible Bipartite.md",
+    "School/Y3S1/CS3230/Notes/Graph.md",
     "Leetcode",
-    "Projects/Untitled.md",
     "How-tos/Setting Up Quartz.md",
     "Projects",
     "formatter/__pycache__/md_collector.cpython-39.pyc",
@@ -232,8 +247,6 @@
     "MongoDB/Basics.md",
     "MongoDB/Schema Patterns.md",
     "Notes/CS2102/index.md",
-    "Notes/CS2040S/index.md",
-    "KodeKloud/CKAD/CKAD Prep/Services.md",
     "assets/rdt2.1.png",
     "assets/Screenshot 2024-04-16 at 11.53.43 PM.png",
     "assets/enterpriseaccessnetwork.png",

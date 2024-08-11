@@ -1,5 +1,6 @@
 ---
 title: Backend with Golang
+tags: [swe, backend]
 ---
 
 >[!note] repo
