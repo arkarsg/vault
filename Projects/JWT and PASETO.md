@@ -77,12 +77,12 @@ Header has 2 parts:
 >- HS256 is default for clients
 >- RS256 is default for APIs
 >  
->  #### HS256
+>  #### HS256 (Symmetric keys)
 >  - Generates a symmetric MAC → must share a secret with any client or API that wants to verify the JWT
 >  - Secret is used for both signing and verifying the JWT
 >  - **There is no way to guarantee that auth server generated the JWT** as any client or API with the secret could generate a validly signed JWT
 >
-> #### RS256
+> #### RS256 (Asymmetric keys)
 > - Generates asymmetric signature: a *private* key is used to sign the JWT, a different public key is used to *verify*
 
 
@@ -222,7 +222,20 @@ MongoDB Realm provides mechanisms for custom JWT authentication.
 >[!note]
 >Other claims are automatically added by Clerk
 
-# Stop using JWT for sessions
+# Problems with JWT
+
+### Weak algorithms
+- Give developers too many algos to choose
+- Some algos are known to be vulnerable
+
+### Trivial Forgery
+- Set `alg` to `None` to bypass validation
+- Set  `alg` to a symmetric one while server normally verifies token with RSA public key
+	- Server’s RSA public key is known to the public
+	- Attacker create a fake token with symmetric algo and signs with server’s public key
+
+In server code, need to validate token algo to one that the server uses
+
 >[!note]
 >JWT is suitable for SSO, but not to manage user sessions in their web applications
 >
@@ -240,8 +253,6 @@ So far, we have seen *stateless* JWT. A *stateful* JWT contains just a reference
 
 **How to use sessions for authentication**
 - [sessions](https://gist.github.com/joepie91/cf5fd6481a31477b12dc33af453f9a1d)
-
-
 
 ---
 

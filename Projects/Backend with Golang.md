@@ -263,3 +263,8 @@ Therefore, we can create our own `matcher` by implementing the `Matches` and `St
 In case 1, our `Matches` method can match all field except the timestamp
 In case 2, our `Matches` method can use `CheckHashPassword` function in `bcrypt` instead of plain-text comparison
 
+---
+
+# PASETO vs JWT
+- [JWT and PASETO](JWT%20and%20PASETO.md)
+
