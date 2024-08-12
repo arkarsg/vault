@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/JWT and PASETO.md",
+                "file": "Projects/Backend with Golang.md",
                 "mode": "preview",
                 "source": true
               }
@@ -66,7 +66,7 @@
             }
           },
           {
-            "id": "5f6a5f27536d1bdc",
+            "id": "ba49cde65225577a",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/JWT and PASETO.md",
+                "file": "Projects/Backend with Golang.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/JWT and PASETO.md",
+                "file": "Projects/Backend with Golang.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/JWT and PASETO.md"
+                "file": "Projects/Backend with Golang.md"
               }
             }
           },
@@ -187,9 +187,9 @@
   },
   "active": "2a65115a7244b47d",
   "lastOpenFiles": [
+    "Projects/JWT and PASETO.md",
     "Projects/Backend with Golang.md",
     "index.md",
-    "Projects/JWT and PASETO.md",
     "assets/Pasted image 20240811005447.png",
     "Projects/index.md",
     "Leetcode/Reversing Linked List I & II.md",

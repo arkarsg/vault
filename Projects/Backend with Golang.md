@@ -10,7 +10,7 @@ tags: [swe, backend]
 
 >[!warning] TO DO
 >- [ ] Mocking
->- [ ] Config with Viper
+>- [x] Config with Viper
 
 | Component           | Tool       |
 | ------------------- | ---------- |
@@ -268,3 +268,115 @@ In case 2, our `Matches` method can use `CheckHashPassword` function in `bcrypt`
 # PASETO vs JWT
 - [JWT and PASETO](JWT%20and%20PASETO.md)
 
+---
+
+# Configs with `Viper`
+
+[Viper](https://github.com/spf13/viper) is an application configuration solution that lets you load env vars from different formats and sources. Here, an example with `yaml` is demonstrated.
+
+Let’s define a `yaml` file with the desired configs without worrying about how `Viper` will read the contents:
+
+```yaml
+db:
+  dev_db:
+    db_user: root
+    db_password: password
+    db_driver: postgres
+    db_name: split_db
+    db_port: "5432"
+  testcontainers_db:
+    db_user: testuser
+    db_password: testpassword
+    db_driver: postgres
+    db_name: split_test_db
+    db_port: "5432"
+server:
+  path: "0.0.0.0"
+  port: "8080"
+token:
+  symmetric_key: <symmetric-key>
+  access_duration: 15m
+```
+
+We have `db`, `server`, and `token` as the main *dictionary* keys. 
+- `db` consists of 2 dictionaries: `dev_db` and `testcontainers_db`
+- `server` consists of 2 key-value pairs
+- `token` consists of 2 key-value pairs
+
+Viper uses `mapstructure` to map the contents of a *dictionary* into a struct object.
+
+Suppose for `server`, it has to unmarshal the `server` key into a struct that contains `path` and `port`
+
+```go
+type ServerEnvs struct {
+	Path    string `mapstructure:"path"`
+	Port    string `mapstructure:"port"`
+	Address string // Derived field.
+}
+
+type TokenEnvs struct {
+	SymmetricKey   string        `mapstructure:"symmetric_key"`
+	AccessDuration time.Duration `mapstructure:"access_duration"`
+}
+```
+
+### What about nested dictionaries like `db`?
+
+First, we define a struct that can hold values of each dictionary in `db`:
+```go
+type DbEnvs struct {
+	DbUser     string `mapstructure:"db_user"`
+	DbPassword string `mapstructure:"db_password"`
+	DbDriver   string `mapstructure:"db_driver"`
+	DbName     string `mapstructure:"db_name"`
+	DbPort     string `mapstructure:"db_port"`
+}
+```
+
+Then, this is wrapped in `map[string]*DbEnvs` where a `string` is the key, such as `dev_db` or `testcontainers_db`:
+
+```go
+type ServerConfig struct {
+	Db     map[string]*DbEnvs
+	Server ServerEnvs
+	Token  TokenEnvs
+}
+```
+
+Now, we have a struct that can be used to unmarshal the config.
+
+```go
+func init() {
+	_, filename, _, _ := runtime.Caller(0)
+	configPath := filepath.Join(filepath.Dir(filename), "..")
+
+	viper.AddConfigPath(configPath)
+	viper.SetConfigName("config")
+	viper.SetConfigType("yaml")
+
+	if err := viper.ReadInConfig(); err != nil {
+		log.Fatalf("Can't find config.yaml file: %v", err)
+	}
+
+	if err := viper.Unmarshal(&config); err != nil {
+		log.Fatalf("Failed to unmarshal configuration: %v", err)
+	}
+
+	config.Server.Address = fmt.Sprintf("%s:%s", config.Server.Path, config.Server.Port)
+}
+```
+
+### Misc notes
+Suppose the module to load config is in `./utils/config.go` belonging to `package utils` and `config.yaml` resides in `./`. How can we retrieve the absolute file path that works for Go in any environment?
+
+Simply using `os.Getwd()` does not work because it returns the working directory of the user executing the process and not the directory of the file.
+
+---
+
+#### `func init()` in Go
+
+These `init()` functions can be used within a `package` block and regardless of how many times that package is imported, the `init()` function will only be called once.
+
+`init()` function would be preferential when compared to having to explicitly call your own setup functions.
+
+---
