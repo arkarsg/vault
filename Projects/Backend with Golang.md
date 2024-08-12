@@ -347,6 +347,7 @@ Now, we have a struct that can be used to unmarshal the config.
 
 ```go
 func init() {
+	// will this work with go build?
 	_, filename, _, _ := runtime.Caller(0)
 	configPath := filepath.Join(filepath.Dir(filename), "..")
 
