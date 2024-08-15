@@ -381,3 +381,103 @@ These `init()` functions can be used within a `package` block and regardless
 `init()` function would be preferential when compared to having to explicitly call your own setup functions.
 
 ---
+
+# Middleware
+Middleware allows you to intercept and modify HTTP requests and responses. Middlware *sits between incoming HTTP requests* and *final application response*
+
+![middleware|500](Pasted%20image%2020240812142204.png)
+
+>[!note]
+>`mux` is a HTTP request router and dispatcher for matching incoming requests to their respective handler
+
+This adds functionality to HTTP server without modifying core application logic.
+
+Middleware is essentially a chain of functions that can be executed before and after the main request handler. It can perform tasks like authentication, logging, request validation, response compression, and much more.
+
+>[!caution] What if we do not use middleware?
+>We may be tempted to add features like authentication or request logging directly to our application’s request handlers.
+>
+>This leads to *bloated*, *hard-to-maintain* code that is difficult to change
+
+## Examples
+### Authentication middleware
+- Checks whether the user is authenticated and authorized to access the requested resource
+
+### Logging middleware
+- Logs information about incoming requests, such as method, URL, headers, and response status
+
+### Error handling middleware
+- Validates incoming requests to ensure that they meet certain criteria
+
+### Caching
+- Caches responses to certain requests to improve performance and reduce server load
+
+### Request tracing
+- Trace the path of a request through web app
+
+**References**
+- [Gin docs](https://gin-gonic.com/docs/examples/using-middleware/)
+- [Middleware in Golang with `gin`](https://medium.com/@ansujain/mastering-middleware-in-go-tips-tricks-and-real-world-use-cases-79215e72b4a8)
+- [Middleware examples with `net/http`](https://drstearns.github.io/tutorials/gomiddleware/)
+- [Adapter pattern for chaining middleware](https://medium.com/@matryer/writing-middleware-in-golang-and-how-go-makes-it-so-much-fun-4375c1246e81)
+
+## Goroutines inside a middleware
+- [Example](https://gin-gonic.com/docs/examples/goroutines-inside-a-middleware/)
+
+#### Why use `goroutines` in a middleware?
+Using goroutines in middleware is a common pattern in Go, particularly when you want to perform some background tasks without blocking the main request flow. Here’s a real-life example where goroutines are used in middleware to log request details asynchronously.
+
+##### Example: Asynchronous Request Logging Middleware
+
+Imagine you have a web application where you want to log each incoming HTTP request. However, you don't want the logging process to block the handling of the request, so you use a goroutine to log the request details asynchronously.
+
+```go
+package main
+
+import (
+    "log"
+    "net/http"
+    "time"
+)
+
+func main() {
+    http.Handle("/", loggingMiddleware(http.HandlerFunc(homeHandler)))
+    log.Fatal(http.ListenAndServe(":8080", nil))
+}
+
+func homeHandler(w http.ResponseWriter, r *http.Request) {
+    w.Write([]byte("Welcome to the home page!"))
+}
+
+// loggingMiddleware logs details about each request asynchronously
+func loggingMiddleware(next http.Handler) http.Handler {
+    return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+        // Start a new goroutine for logging
+        go func(r *http.Request) {
+            // Log the request details (could be to a file, database, etc.)
+            log.Printf("Received request: %s %s from %s\n", r.Method, r.URL.Path, r.RemoteAddr)
+            // Simulate some heavy processing
+            time.Sleep(2 * time.Second)
+            log.Println("Finished processing request")
+        }(r.Clone(r.Context())) // Clone the request to avoid data races
+
+        // Continue serving the request
+        next.ServeHTTP(w, r)
+    })
+}
+```
+
+##### Explanation
+
+- **Middleware Function (`loggingMiddleware`)**: This middleware wraps the main handler and starts a goroutine to handle the logging of each request asynchronously.
+
+- **Cloning the Request**: The `r.Clone(r.Context())` ensures that the request is safe to use in the goroutine, avoiding potential data races.
+
+- **Goroutine**: Inside the middleware, a goroutine is spawned to log the request details. This allows the main request handling to proceed without waiting for the logging to complete.
+
+- **Non-Blocking**: The request logging does not block the main request flow, allowing the application to handle requests quickly, even if the logging process is slow or involves heavy processing.
+
+This approach is useful when you want to offload certain tasks (like logging, metrics collection, etc.) to the background to improve the responsiveness of your application.
+
+---
+

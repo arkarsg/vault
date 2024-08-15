@@ -20,3 +20,11 @@ Largely, these are reference materials for Computer Science course.
 ### Software Engineering
 
 ### Database Systems
+
+---
+
+## Misc
+- [French](French.md)
+- [Nature of Language](School/Y4S1/EL1101E/index.md)
+- [Theatre and community engagement](School/Y4S1/GEN2001/index.md)
+
