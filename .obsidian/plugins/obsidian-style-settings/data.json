@@ -19,7 +19,9 @@
   "sanctum@@file-line-width": 54,
   "sanctum@@color-accent-rgb-l": "141, 147, 25",
   "sanctum@@light-mode-contrast-mode": "sanctum-default-light",
-  "sanctum@@dark-mode-contrast-mode": "sanctum-contrast-dark",
+  "sanctum@@dark-mode-contrast-mode": "sanctum-default-dark",
   "sanctum@@odd-marker": "alternate-marker-odd-4",
-  "sanctum@@even-marker": "alternate-marker-even-1"
+  "sanctum@@even-marker": "alternate-marker-even-1",
+  "catppuccin-theme-settings@@catppuccin-theme-dark": "ctp-macchiato",
+  "catppuccin-theme-settings@@catppuccin-theme-accents": "ctp-accent-mauve"
 }

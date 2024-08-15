@@ -1,6 +1,8 @@
 {
   "accentColor": "",
-  "theme": "moonstone",
-  "cssTheme": "Sanctum",
-  "textFontFamily": ""
+  "theme": "obsidian",
+  "cssTheme": "Catppuccin",
+  "textFontFamily": "Inter",
+  "interfaceFontFamily": "Inter",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono"
 }

@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Y4S1/CS4211/Z Specification Language.md",
-                "mode": "source",
+                "file": "School/Y4S1/CS3219/Software Development Process.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Y4S1/CS4211/Z Specification Language.md",
+                "file": "School/Y4S1/CS3219/Software Development Process.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Y4S1/CS4211/Z Specification Language.md",
+                "file": "School/Y4S1/CS3219/Software Development Process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Y4S1/CS4211/Z Specification Language.md"
+                "file": "School/Y4S1/CS3219/Software Development Process.md"
               }
             }
           },
@@ -199,12 +199,18 @@
   },
   "active": "c75209c207a2d0d1",
   "lastOpenFiles": [
+    "assets/Screenshot 2024-08-15 at 6.26.12 PM.png",
+    "assets/Screenshot 2024-08-15 at 6.25.04 PM.png",
+    "assets/Screenshot 2024-08-15 at 6.23.29 PM.png",
+    "assets/Screenshot 2024-08-15 at 6.18.40 PM.png",
+    "assets/Screenshot 2024-08-15 at 6.13.18 PM.png",
+    "School/Y4S1/CS4211/Untitled.md",
+    "School/Y4S1/CS4211/Z Specification Language.md",
     "assets/Screenshot 2024-08-15 at 5.59.08 PM.png",
     "assets/Screenshot 2024-08-15 at 4.56.34 PM.png",
     "School/Y4S1/CS3219/index.md",
     "KodeKloud/CKAD/CKAD Prep/State Persistence.md",
     "School/Y4S1/CS3219/Software Development Process.md",
-    "School/Y4S1/CS4211/Z Specification Language.md",
     "School/Y4S1/CS4211/index.md",
     "School/Y4S1/EL1101E/index.md",
     "School/Y4S1/GEN2001/index.md",
@@ -238,13 +244,7 @@
     "School/Y3S2/CS4225/index.md",
     "School/Y3S1/CS3241/index.md",
     "School/Y3S1/CS3230/index.md",
-    "School/Y3S1/CS2105/index.md",
     "assets/rdt2.1.png",
-    "assets/Screenshot 2024-04-16 at 11.53.43 PM.png",
-    "assets/enterpriseaccessnetwork.png",
-    "assets/coordinatetransformation.png",
-    "assets/reductability-3satgraph.png",
-    "assets/Screenshot 2023-11-26 at 1.00.58 PM.png",
     "private/Voyage/Voyage Schema.canvas",
     "Notes/CS2105/2105 overview.canvas",
     "Notes/CS2102/CS2102 Assessment DB.canvas",
