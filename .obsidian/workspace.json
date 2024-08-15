@@ -13,8 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Y4S1/CS3219/index.md",
+                "file": "School/Y4S1/CS4211/Z Specification Language.md",
                 "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "c91c715713d8500e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KodeKloud/CKAD/CKAD Prep/State Persistence.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -48,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ports",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +78,7 @@
             }
           },
           {
-            "id": "5f7fc3f3c9358f84",
+            "id": "31def8de99ef93cd",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -79,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323.5
+    "width": 323.5,
+    "collapsed": true
   },
   "right": {
     "id": "442aecfd3189bf7c",
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Y4S1/CS3219/index.md",
+                "file": "School/Y4S1/CS4211/Z Specification Language.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Y4S1/CS3219/index.md",
+                "file": "School/Y4S1/CS4211/Z Specification Language.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Y4S1/CS3219/index.md"
+                "file": "School/Y4S1/CS4211/Z Specification Language.md"
               }
             }
           },
@@ -186,8 +199,12 @@
   },
   "active": "c75209c207a2d0d1",
   "lastOpenFiles": [
-    "School/Y4S1/CS4211/Z Specification Language.md",
+    "assets/Screenshot 2024-08-15 at 5.59.08 PM.png",
+    "assets/Screenshot 2024-08-15 at 4.56.34 PM.png",
     "School/Y4S1/CS3219/index.md",
+    "KodeKloud/CKAD/CKAD Prep/State Persistence.md",
+    "School/Y4S1/CS3219/Software Development Process.md",
+    "School/Y4S1/CS4211/Z Specification Language.md",
     "School/Y4S1/CS4211/index.md",
     "School/Y4S1/EL1101E/index.md",
     "School/Y4S1/GEN2001/index.md",
@@ -222,16 +239,12 @@
     "School/Y3S1/CS3241/index.md",
     "School/Y3S1/CS3230/index.md",
     "School/Y3S1/CS2105/index.md",
-    "School/Y3S1/CS2102/index.md",
-    "School/Y2/CS2106/index.md",
-    "School/Y2/CS2040S/index.md",
     "assets/rdt2.1.png",
     "assets/Screenshot 2024-04-16 at 11.53.43 PM.png",
     "assets/enterpriseaccessnetwork.png",
     "assets/coordinatetransformation.png",
     "assets/reductability-3satgraph.png",
     "assets/Screenshot 2023-11-26 at 1.00.58 PM.png",
-    "assets/Screenshot 2024-04-27 at 1.05.58 PM.png",
     "private/Voyage/Voyage Schema.canvas",
     "Notes/CS2105/2105 overview.canvas",
     "Notes/CS2102/CS2102 Assessment DB.canvas",
