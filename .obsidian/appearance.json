@@ -2,8 +2,8 @@
   "accentColor": "",
   "theme": "moonstone",
   "cssTheme": "Big Sur Aesthetic",
-  "textFontFamily": "Inter",
-  "interfaceFontFamily": "Inter",
+  "textFontFamily": "",
+  "interfaceFontFamily": "",
   "monospaceFontFamily": "JetBrainsMono Nerd Font Mono",
   "baseFontSize": 15
 }
