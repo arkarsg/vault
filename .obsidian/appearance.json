@@ -1,8 +1,9 @@
 {
   "accentColor": "",
-  "theme": "obsidian",
-  "cssTheme": "Catppuccin",
+  "theme": "moonstone",
+  "cssTheme": "Big Sur Aesthetic",
   "textFontFamily": "Inter",
   "interfaceFontFamily": "Inter",
-  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono"
+  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono",
+  "baseFontSize": 15
 }

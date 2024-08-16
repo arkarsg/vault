@@ -115,8 +115,33 @@ title: Software Development Process
 - Granular and controllable
 	- Deployments can be of whole system or elements within a system
 	- Monitor, rollback, patch, redeploy easily
+- Reproducible
+	- Guaranteed to be identical on any system that can run containers
+- Isolation and security
+	- Avoid conflicting dependencies
+	- Can provide *some* sandboxing for code execution
+- Quick to launch
+- Can be used with an orchestrator like Kubernetes
 
 ##### Cons
 - Not suitable for performance critical applications
 - Not suitable for all applications
-- 
+
+---
+
+### Serverless
+>[!note]
+>A cloud native *development* model where servers are not managed by *developers and enterprises*
+
+1. Developers package code into containers
+2. Application is deployed via containers
+3. Apps respond to demand and automatically scale up/ down as needed
+
+#### Serverless functions
+- Cloud providers manage physical servers and *dynamically* allocate resources on behalf of developers
+- Event driven execution model (run when needed)
+- **Stateless** application
+- **Ephemeral** — short execution times
+
+---
+
