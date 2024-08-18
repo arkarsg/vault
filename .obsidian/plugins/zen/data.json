@@ -1,17 +1,17 @@
 {
-  "enabled": true,
+  "enabled": false,
   "preferences": {
     "ribbon": true,
     "tabs": true,
     "statusBar": true,
-    "fileHeader": false,
+    "fileHeader": true,
     "sideDockLeft": true,
-    "sideDockRight": false,
+    "sideDockRight": true,
     "fullScreen": false,
     "autoHideZen": false
   },
   "global": {
-    "hideZenButton": false
+    "hideZenButton": true
   },
   "integrations": [
     {
@@ -28,7 +28,7 @@
     },
     {
       "enabled": false,
-      "available": true,
+      "available": false,
       "name": "obsidian-stille",
       "description": "Automatically enable Stille when entering Zen mode.",
       "options": {}

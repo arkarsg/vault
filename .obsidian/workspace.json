@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "634e8390bd181355",
+        "id": "05b4de8d1d023887",
         "type": "tabs",
         "children": [
           {
-            "id": "aa609d092903460e",
+            "id": "108428aad856214b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Y4S1/CS4248/Text preprocessing.md",
+                "file": "School/Y4S1/CS3219/Software Development Process.md",
                 "mode": "preview",
                 "source": true
               }
             }
+          },
+          {
+            "id": "13036e8ec4d92432",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Y4S1/EL1101E/index.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -66,7 +79,7 @@
             }
           },
           {
-            "id": "1c8211051233267f",
+            "id": "155bb5b4ceb28b68",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -79,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323.5,
-    "collapsed": true
+    "width": 323.5
   },
   "right": {
     "id": "442aecfd3189bf7c",
@@ -96,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Y4S1/CS4248/Text preprocessing.md",
+                "file": "School/Y4S1/EL1101E/index.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Y4S1/CS4248/Text preprocessing.md",
+                "file": "School/Y4S1/EL1101E/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Y4S1/CS4248/Text preprocessing.md"
+                "file": "School/Y4S1/EL1101E/index.md"
               }
             }
           },
@@ -185,13 +197,18 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "aa609d092903460e",
+  "active": "13036e8ec4d92432",
   "lastOpenFiles": [
-    "School/Y4S1/CS4211/index.md",
-    "School/Y4S1/CS4211/Z Specification Language.md",
-    "School/Y4S1/CS3219/index.md",
+    "School/Y4S1/EL1101E/private/Phonetics.md",
+    "School/Y4S1/EL1101E/private",
+    "assets/Screenshot 2024-08-17 at 1.43.35 PM.png",
+    "assets/Screenshot 2024-08-17 at 1.11.49 PM.png",
+    "School/Y4S1/EL1101E/index.md",
     "School/Y4S1/CS3219/Software Development Process.md",
+    "School/Y4S1/CS4211/Z Specification Language.md",
     "School/Y4S1/CS4248/Text preprocessing.md",
+    "School/Y4S1/CS4211/index.md",
+    "School/Y4S1/CS3219/index.md",
     "School/Y4S1/CS4248/index.md",
     "KodeKloud/CKAD/CKAD Prep/State Persistence.md",
     "assets/Screenshot 2024-08-15 at 6.26.12 PM.png",
@@ -202,17 +219,14 @@
     "School/Y4S1/CS4211/Untitled.md",
     "assets/Screenshot 2024-08-15 at 5.59.08 PM.png",
     "assets/Screenshot 2024-08-15 at 4.56.34 PM.png",
-    "School/Y4S1/EL1101E/index.md",
     "School/Y4S1/GEN2001/index.md",
     "School/index.md",
     "School/Y3S2/Untitled.md",
     "School/Y4S1/EL1101E",
     "Projects/Backend with Golang.md",
     "assets/Pasted image 20240812142204.png",
-    "assets/Pasted image 20240812142202.png",
     "Projects/JWT and PASETO.md",
     "index.md",
-    "assets/Pasted image 20240811005447.png",
     "Projects/index.md",
     "Leetcode/Reversing Linked List I & II.md",
     "Leetcode/index.md",
@@ -228,11 +242,8 @@
     "formatter/md_collector.py",
     "formatter/main.py",
     "formatter/README.md",
-    "School/Y3S1/CS3230/main.py",
     "School/Y3S1/CS3230/README.md",
     "README.md",
-    "School/Y3S2/CS4225/index.md",
-    "School/Y3S1/CS3241/index.md",
     "private/Voyage/Voyage Schema.canvas",
     "Notes/CS2105/2105 overview.canvas",
     "Notes/CS2102/CS2102 Assessment DB.canvas",

@@ -12,10 +12,6 @@
   "sanctum@@h3-color": "#8D9319",
   "sanctum@@h5-color": "#53709F",
   "sanctum@@h6-color": "#A577DA",
-  "minimal-advanced@@styled-scrollbars": true,
-  "minimal-advanced@@cursor": "default",
-  "minimal-style@@ax1@@dark": "#FF74B8",
-  "minimal-style@@bold-color@@dark": "#FF74B8",
   "sanctum@@file-line-width": 54,
   "sanctum@@color-accent-rgb-l": "141, 147, 25",
   "sanctum@@light-mode-contrast-mode": "sanctum-default-light",
@@ -23,5 +19,6 @@
   "sanctum@@odd-marker": "alternate-marker-odd-4",
   "sanctum@@even-marker": "alternate-marker-even-1",
   "catppuccin-theme-settings@@catppuccin-theme-dark": "ctp-macchiato",
-  "catppuccin-theme-settings@@catppuccin-theme-accents": "ctp-accent-mauve"
+  "catppuccin-theme-settings@@catppuccin-theme-accents": "ctp-accent-mauve",
+  "minimal-advanced@@cursor": "default"
 }
