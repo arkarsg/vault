@@ -28,7 +28,7 @@
     },
     {
       "enabled": false,
-      "available": false,
+      "available": true,
       "name": "obsidian-stille",
       "description": "Automatically enable Stille when entering Zen mode.",
       "options": {}

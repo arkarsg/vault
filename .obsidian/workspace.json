@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "726b2e736a446107",
+            "id": "7697c55ca3d85c6d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readings/Designing Data-Intensive applications/Reliable, scalable, maintainable applications.md",
+                "file": "2024-08-19.md",
                 "mode": "source",
                 "source": true
               }
@@ -66,7 +66,7 @@
             }
           },
           {
-            "id": "155bb5b4ceb28b68",
+            "id": "c0a5330e32f35e66",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323.5
+    "width": 323.5,
+    "collapsed": true
   },
   "right": {
     "id": "442aecfd3189bf7c",
@@ -95,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readings/Designing Data-Intensive applications/Reliable, scalable, maintainable applications.md",
+                "file": "2024-08-19.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Readings/Designing Data-Intensive applications/Reliable, scalable, maintainable applications.md",
+                "file": "2024-08-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readings/Designing Data-Intensive applications/Reliable, scalable, maintainable applications.md"
+                "file": "2024-08-19.md"
               }
             }
           },
@@ -184,24 +185,28 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "726b2e736a446107",
+  "active": "346b4466046eb7de",
   "lastOpenFiles": [
-    "Readings/Designing Data-Intensive applications",
+    "School/Y4S1/CS4248/private/Tutorial 1.md",
+    "2024-08-19.md",
+    "School/Y4S1/CS4248/Text preprocessing.md",
+    "School/Y4S1/EL1101E/private/Phonetics.md",
+    "School/Y4S1/CS4248/private",
+    "School/Y4S1/EL1101E/index.md",
+    "School/Y4S1/CS3219/Software Development Process.md",
+    "School/Y4S1/CS4211/Z Specification Language.md",
     "Readings/Designing Data-Intensive applications/Reliable, scalable, maintainable applications.md",
+    "School/Y4S1/CS4248/index.md",
+    "School/Y4S1/CS3219/index.md",
+    "index.md",
+    "Readings/Designing Data-Intensive applications",
     "Readings",
     "School/Y4S1/GEN2001/What is Theatre?.md",
     "School/Y4S1/GEN2001/index.md",
-    "School/Y4S1/CS3219/Software Development Process.md",
-    "School/Y4S1/CS4211/Z Specification Language.md",
-    "School/Y4S1/CS4248/Text preprocessing.md",
-    "School/Y4S1/EL1101E/private/Phonetics.md",
-    "School/Y4S1/EL1101E/index.md",
     "School/Y4S1/EL1101E/private",
     "assets/Screenshot 2024-08-17 at 1.43.35 PM.png",
     "assets/Screenshot 2024-08-17 at 1.11.49 PM.png",
     "School/Y4S1/CS4211/index.md",
-    "School/Y4S1/CS3219/index.md",
-    "School/Y4S1/CS4248/index.md",
     "KodeKloud/CKAD/CKAD Prep/State Persistence.md",
     "assets/Screenshot 2024-08-15 at 6.26.12 PM.png",
     "assets/Screenshot 2024-08-15 at 6.25.04 PM.png",
@@ -217,7 +222,6 @@
     "Projects/Backend with Golang.md",
     "assets/Pasted image 20240812142204.png",
     "Projects/JWT and PASETO.md",
-    "index.md",
     "Projects/index.md",
     "Leetcode/Reversing Linked List I & II.md",
     "Leetcode/index.md",
@@ -229,9 +233,6 @@
     "formatter/__pycache__/md_collector.cpython-39.pyc",
     "formatter/__pycache__/image_formatter.cpython-39.pyc",
     "formatter/__pycache__/image_formatter.cpython-312.pyc",
-    "formatter/__pycache__",
-    "formatter/md_collector.py",
-    "formatter/README.md",
     "private/Voyage/Voyage Schema.canvas",
     "Notes/CS2105/2105 overview.canvas",
     "Notes/CS2102/CS2102 Assessment DB.canvas",
