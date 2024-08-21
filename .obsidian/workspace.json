@@ -4,22 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "8e21c429bc4e8720",
+        "id": "a8463f8b493b70d6",
         "type": "tabs",
         "children": [
           {
-            "id": "7697c55ca3d85c6d",
+            "id": "39fab744a24285be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-08-19.md",
-                "mode": "source",
-                "source": true
+                "file": "Leetcode/Dynamic Programming.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -66,7 +67,7 @@
             }
           },
           {
-            "id": "c0a5330e32f35e66",
+            "id": "8451a7a2c34ae30b",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -96,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-08-19.md",
+                "file": "Leetcode/Dynamic Programming.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-08-19.md",
+                "file": "Leetcode/Dynamic Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-08-19.md"
+                "file": "Leetcode/Dynamic Programming.md"
               }
             }
           },
@@ -165,7 +166,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -185,18 +186,29 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "346b4466046eb7de",
+  "active": "39fab744a24285be",
   "lastOpenFiles": [
-    "School/Y4S1/CS4248/private/Tutorial 1.md",
-    "2024-08-19.md",
-    "School/Y4S1/CS4248/Text preprocessing.md",
+    "School/Y3S1/CS3230/Notes/Dynamic Programming.md",
+    "Leetcode/Dynamic Programming.md",
+    "assets/image.jpeg",
+    "assets/Pasted image 20240821151059.png",
+    "assets/Pasted image 20240821151047.png",
     "School/Y4S1/EL1101E/private/Phonetics.md",
+    "School/Y4S1/CS4248/index.md",
+    "assets/Screenshot 2024-08-20 at 11.37.02 AM.png",
+    "assets/Screenshot 2024-08-20 at 10.47.26 AM.png",
+    "20-Aug-2024.md",
+    "19-Aug-2024.md",
+    "School/Y4S1/CS4248/private/Tutorial 1.md",
+    "assets/Screenshot 2024-08-19 at 7.22.04 PM.png",
+    "School/Y4S1/CS4248/Text preprocessing.md",
+    "Readings/Designing Data-Intensive applications/Reliable, scalable, maintainable applications.md",
+    "private/template.md",
+    "2024-08-19.md",
     "School/Y4S1/CS4248/private",
     "School/Y4S1/EL1101E/index.md",
     "School/Y4S1/CS3219/Software Development Process.md",
     "School/Y4S1/CS4211/Z Specification Language.md",
-    "Readings/Designing Data-Intensive applications/Reliable, scalable, maintainable applications.md",
-    "School/Y4S1/CS4248/index.md",
     "School/Y4S1/CS3219/index.md",
     "index.md",
     "Readings/Designing Data-Intensive applications",
@@ -210,25 +222,13 @@
     "KodeKloud/CKAD/CKAD Prep/State Persistence.md",
     "assets/Screenshot 2024-08-15 at 6.26.12 PM.png",
     "assets/Screenshot 2024-08-15 at 6.25.04 PM.png",
-    "assets/Screenshot 2024-08-15 at 6.23.29 PM.png",
-    "assets/Screenshot 2024-08-15 at 6.18.40 PM.png",
-    "assets/Screenshot 2024-08-15 at 6.13.18 PM.png",
     "School/Y4S1/CS4211/Untitled.md",
-    "assets/Screenshot 2024-08-15 at 5.59.08 PM.png",
-    "assets/Screenshot 2024-08-15 at 4.56.34 PM.png",
     "School/index.md",
     "School/Y3S2/Untitled.md",
     "School/Y4S1/EL1101E",
     "Projects/Backend with Golang.md",
-    "assets/Pasted image 20240812142204.png",
     "Projects/JWT and PASETO.md",
-    "Projects/index.md",
-    "Leetcode/Reversing Linked List I & II.md",
-    "Leetcode/index.md",
-    "Leetcode/Possible Bipartite.md",
-    "School/Y3S1/CS3230/Notes/Graph.md",
     "Leetcode",
-    "How-tos/Setting Up Quartz.md",
     "Projects",
     "formatter/__pycache__/md_collector.cpython-39.pyc",
     "formatter/__pycache__/image_formatter.cpython-39.pyc",

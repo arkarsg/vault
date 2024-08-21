@@ -11,7 +11,7 @@ tags:
 - [[Graph]]
 - [[Greedy algorithms]]
 - [[Divide and Conquer]]
-- [[Dynamic Programming]]
+- [[School/Y3S1/CS3230/Notes/Dynamic Programming]]
 - [[Max flow]]
 
 --- 

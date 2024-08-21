@@ -13,5 +13,6 @@
   "alwaysUpdateLinks": true,
   "vimMode": true,
   "newFileLocation": "current",
-  "promptDelete": false
+  "promptDelete": false,
+  "tabSize": 2
 }

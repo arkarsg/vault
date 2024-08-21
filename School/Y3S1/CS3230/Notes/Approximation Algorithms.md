@@ -409,7 +409,7 @@ Given $L$, find a feasible flow if it exists. Then, binary search to find $L^*$
 # Knapsack problem
 
 >[!note]- The problem
->![[Dynamic Programming#Knapsack problem]]
+>![[School/Y3S1/CS3230/Notes/Dynamic Programming#Knapsack problem]]
 
 ## NP-complete
 The ==decision== version of the problem:
