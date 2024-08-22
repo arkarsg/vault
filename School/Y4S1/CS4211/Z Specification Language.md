@@ -199,3 +199,149 @@ $$
 ## Sequences
 
 ### Functions for sequences
+
+
+---
+
+# State schema
+
+- Specifies a relationship between **variable values**
+- Specifies a **snapshot of a system**
+
+Consists of 2 parts:
+1. Variables *declared* and *typed* at the top
+2. Predicate restraining possible values of the declared variables at the bottom
+
+**Instance** of a schema
+- Assignment of values to variables
+```
+|- Buffer ---------------------
+| items : seq MSG                      declaration
+|--------------------------------
+| #items <= max                        predicate
+|--------------------------------
+```
+
+# Operation schema
+
+- Specifies how the system can *change*
+- Express as a predicate the **relationship** between the instance of the state *before the operation* and *after the operation*
+
+```
+|- Join ------------------------------------
+|items, items' : seq MSG
+|msg? : MSG
+|--------------------------------------------
+|#items <= max                    valid instance both before & after
+|#items' <= max
+|#items < max                     buffer must not be completely full
+|items' = items⁀<msg?>            relationship between instances
+|-------------------------------------------
+```
+
+- `items` - Instance of the state before
+- `items'` - instance of the state after
+- `?` - An output
+
+>[!warning] There is an implicit $\land$ between each line
+### Schema inclusion
+Including a schema in another schema declaration → creates a new schema with **predicates conjoined**
+- type compatibility is needed to merge schemas
+
+```
+|- A --------
+|x: T1
+|y: T2
+|-------------
+
+|P(x,y)
+|-------------
+|- S --------
+|A
+|z: T3
+|-------------
+|Q(x,y,z)
+|-------------
+
+|- S -----------------
+|x: T1
+|y: T2
+|z: T3
+|---------------------
+|P(x,y) ∧ Q(x,y,z)
+|---------------------
+```
+
+In other words, we can simplify any **operation schema** into:
+
+```
+|- ∆ Buffer-------------------------------
+|items, items' : seq MSG
+|--------------------------------------------
+|#items <= max
+|#items' <= max
+|--------------------------------------------
+```
+
+Then, write the `Join` operation as:
+```
+|- Join ------------------------------------
+|∆ Buffer                       Schema inclusion
+|msg? : MSG
+|--------------------------------------------
+|#items < max
+|items' = items⁀<msg?>
+|--------------------------------------------
+```
+
+## Leave op
+
+```
+|- Leave ------------------------------------
+|∆ Buffer
+|msg! : MSG
+|--------------------------------------------
+|items ≠ ∅
+|items = <msg!>⁀items'
+|--------------------------------------------
+```
+
+## Initial state
+- To complete the specs, specify the initial state of the buffer
+
+---
+
+### Slow leave
+
+```
+|- SlowLeave ------------------
+|∆ SlowBuffer
+|Leave
+|--------------------------------
+|idle >= delay ∧ idle' = 0
+|--------------------------------
+
+|- SlowLeave ----------------------------------------
+|items, items' : seq MSG
+|idle, idle' : N
+|msg! : MSG
+|------------------------------------------------------
+|items ≠ ∅
+|items = <msg!>⁀items'
+|idle >= delay ∧ idle' = 0
+|------------------------------------------------------
+```
+
+---
+
+# Reasoning about specification
+- Introduce aux variables
+	- **should not alter the functionality**
+	- **should aid in the analysis**
+- Add aux variables into original schema
+
+## Example
+
+$$
+\forall \text{RecordedBuffer} \space\cdot\space \text{inhist} = \text{outhist} \do
+$$

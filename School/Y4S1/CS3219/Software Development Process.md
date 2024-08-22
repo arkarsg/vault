@@ -145,3 +145,27 @@ title: Software Development Process
 
 ---
 
+# Scrum – Agile process
+>[!note]
+>Mention which ideology you followed in the report
+
+---
+
+# CI/CD
+**Continuous Integration**
+- Dev practice that requires developers to integrate code into a shared repo several times a day
+- Each check in is verified by automated build
+- Detects problems early
+
+**Continuous delivery**
+- Ensuring that every good build is potentially ready for production release
+- *Manually* deploy changes
+
+**Continuous deployment**
+- Automating the release of a good build to the production environment
+
+---
+
+
+
+
